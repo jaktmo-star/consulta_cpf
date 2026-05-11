@@ -2,19 +2,20 @@ Consulta CPF com Python
 
 Aplicação simples desenvolvida em Python para realizar consultas de CPF utilizando interface gráfica com CustomTkinter e API externa.
 
-📌 Tecnologias Utilizadas
+Tecnologias Utilizadas
 Python 3
 CustomTkinter
 Requests
 API CPFHub
-📂 Estrutura do Projeto
+
+Estrutura do Projeto
 consulta-cpf/
 │
 ├── main.py
 ├── icon.ico
 ├── requirements.txt
 └── README.md
-🚀 Funcionalidades
+Funcionalidades
 Interface gráfica moderna
 Consulta de CPF via API
 Exibição de:
@@ -24,7 +25,8 @@ Situação cadastral
 Data de nascimento
 Feedback visual de erro
 Tema escuro moderno
-🖥️ Pré-requisitos
+
+Pré-requisitos
 
 Antes de executar o projeto, instale:
 
@@ -48,12 +50,13 @@ requests
 Depois execute:
 
 pip install -r requirements.txt
-▶️ Como Executar
+
+Como Executar
 
 Execute o arquivo principal:
 
 python main.py
-🧠 Explicação do Código
+Explicação do Código
 Importação das Bibliotecas
 import customtkinter as ctk
 import requests
@@ -67,7 +70,7 @@ Define:
 
 Tema escuro
 Cor azul padrão
-🔍 Função de Consulta
+Função de Consulta
 def consultar_cpf():
 
 Responsável por:
@@ -114,7 +117,7 @@ texto = (
     f"Data de Nascimento: {resultado_api.get('data_nascimento','')}"
 )
 
-🔒 Observações
+Observações
 É necessário possuir uma API KEY válida.
 Algumas consultas podem depender do plano da API.
 Utilize apenas para fins educacionais e legais.
